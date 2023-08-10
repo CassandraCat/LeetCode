@@ -5,6 +5,9 @@
  */
 
 // @lc code=start
+
+import java.util.Arrays;
+
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int result = nums[0] + nums[1] + nums[nums.length - 1];
